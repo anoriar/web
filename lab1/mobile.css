@@ -1,0 +1,74 @@
+
+@media only screen and (min-width: 240px) and (max-width: 480px) { 
+    .nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .nav li a {
+        border-bottom: 1px solid #576979;
+    }
+
+	h1 {
+		font-size: 14px;	
+	}
+
+	p, a, .feedback{
+		font-size: 9px;
+	}
+
+
+
+	.inp[name="name"], .inp[name="email"]{
+	width: 120px;
+	}
+
+	.inp[name="theme"], .inp[name="message"]{
+		width: 180px;
+	}
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 90px;
+	}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {  
+
+	h1 {
+		font-size: 17px;	
+	}
+
+	p, a, .feedback{
+		font-size: 13px;
+	}
+
+
+
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 110px;
+	}
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) { 
+
+	h1 {
+		font-size: 25px;
+	}
+
+	p, a, .feedback{
+		font-size: 16px;
+	}
+
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 150px;
+	}
+}

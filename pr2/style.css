@@ -1,0 +1,23 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: 333;
+}
+table {
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid #666;
+}
+td {
+    padding: 10px;
+}
+input, textarea {
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    line-height: 1.5;
+    width: 30%;
+}
+textarea {
+    resize: vertical;
+}
