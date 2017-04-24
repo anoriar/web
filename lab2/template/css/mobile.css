@@ -1,0 +1,123 @@
+
+@media only screen and (min-width: 240px) and (max-width: 600px) { 
+    .nav li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .nav li a {
+        border-bottom: 0.5px solid #ccc;
+         border-top: 0.5px solid #ccc;
+    }
+
+	h1 {
+		font-size: 14px;	
+	}
+	
+	h2{
+       font-size: 11px;
+	}
+
+	p, a, .feedback{
+		font-size: 9px;
+	}
+
+	ul.nav a{
+		font-size: 9px;
+	}
+
+
+
+	.inp[name="name"], .inp[name="email"]{
+	width: 120px;
+	}
+
+	.inp[name="theme"], .inp[name="message"]{
+		width: 180px;
+	}
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 90px;
+	}
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {  
+
+	h1 {
+		font-size: 16px;	
+	}
+	
+	h2{
+       font-size: 13px;
+	}
+
+	p, a, .feedback{
+		font-size: 9px;
+	}
+
+	ul.nav a{
+		font-size: 9px;
+	}
+
+
+
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 110px;
+	}
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) { 
+
+	h1 {
+		font-size: 20px;
+	}
+	
+	h2{
+       font-size: 15px;
+	}
+
+	p, a, .feedback{
+		font-size: 11px;
+	}
+
+
+	ul.nav a{
+		font-size: 11px;
+	}
+
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 150px;
+	}
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1000px) { 
+
+	h1 {
+		font-size: 25px;
+	}
+
+	p, a, .feedback{
+		font-size: 18px;
+	}
+
+
+	ul.nav a{
+		font-size: 13px;
+	}
+
+
+	 .inp[name="btn"]{
+		background-color: #bde0ff;
+		width: 150px;
+	}
+}

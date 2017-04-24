@@ -1,0 +1,120 @@
+ul{
+	-webkit-padding-start: 0;
+}
+
+.figure {
+
+	float: left;
+	letter-spacing: 0.05em;
+	line-height: 1.1;
+	margin: 0 1% 1% 1%;	
+	width: 31.3333%;	
+			
+				
+}
+
+.figure img {
+
+	width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 0 auto 1em;
+}
+
+
+
+
+ #col  {
+        display: block;
+        float: left;
+        width: 45%;
+        padding: 2.21%;
+        list-style-type: none;
+}
+
+
+.inp{
+	padding: 1%;
+	border: 1px solid #E5E5E5;
+	width: 50%;
+	
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+.inp[name="name"], .inp[name="email"]{
+	width: 30%;
+}
+
+.inp[name="theme"], .inp[name="message"]{
+	width: 60%;
+}
+
+ .inp[name="btn"]{
+	background-color: #bde0ff;
+	width: 20%;
+}
+
+
+
+
+
+
+
+#content {
+	float: left;
+
+}
+
+.post {
+
+	padding: 4%;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	border: 0.5em solid #D9D9D9;
+}
+
+.post .title {
+	margin: 0;
+
+}
+
+.post .title a {
+
+}
+
+.post .meta {
+
+	text-align: left;
+
+}
+
+
+.post .entry {
+	text-align: justify;
+	display: inline-block;
+
+}
+
+.post .entry img{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
