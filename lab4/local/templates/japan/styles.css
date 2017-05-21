@@ -1,0 +1,360 @@
+
+body { 
+
+	padding: 2% 12% 2% 12%;
+
+}
+
+
+
+ol,ul { 
+	list-style:none; 
+}
+
+ul{
+    margin: 0;
+}
+
+
+a {
+    color: #40E0D0; 
+    text-decoration: none;
+
+ }
+ 
+ a:visited {
+    color: #2F4F4F; 
+ } 
+ 
+ a:hover {
+    color: #FF0000; 
+   
+ }
+
+
+.active{
+	background: red;
+}
+
+
+
+
+header img{
+  
+	width: 100%;
+}
+
+
+
+#sub-header ul {
+	
+	width: 99.9%;
+      float: left;
+      text-align: center;
+      padding: 0;
+      list-style: none;
+      background-color: #f2f2f2;
+      border: 0.05em solid #ccc;
+      
+
+}
+
+#top-menu  li{
+	float: left; 
+}
+
+
+#top-menu a {
+
+      font-size: 1em;
+	  display: block;
+      padding: 0.5em 0.5em 0.5em;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 0.05em solid #ccc;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+
+}
+
+#top-menu a:hover {
+	background-position: 50% 100%;
+	color: #FF5A47;
+}
+
+
+
+section {
+
+	margin: 7% 5% 5% 5%;
+}
+
+
+ h1 {
+
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+h2{
+       font-size: 1em;
+}
+
+ p{
+
+	font-size: 1em;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ 	text-indent: 5%;
+ 	text-align: justify;
+
+}
+
+
+
+
+
+ul{
+	-webkit-padding-start: 0;
+}
+
+.figure {
+
+	float: left;
+	letter-spacing: 0.05em;
+	line-height: 1.1;
+	margin: 0 1% 1% 1%;	
+	width: 31.3333%;	
+			
+				
+}
+
+.figure img {
+
+	width: 100%;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 0 auto 1em;
+}
+
+
+
+
+ #col  {
+        display: block;
+        float: left;
+        width: 45%;
+        padding: 2.21%;
+        list-style-type: none;
+}
+
+
+.inp{
+	padding: 1%;
+	border: 1px solid #E5E5E5;
+	width: 50%;
+	
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+form[name="iblock_add"] input[type="submit"]{
+	width: 20%;
+}
+
+form[name="iblock_add"] input[type="text"]{
+	width: 30%;
+}
+
+form[name="iblock_add"] #bx-html-editor{
+	width: 60%;
+}
+
+ form[name="iblock_add"] btn{
+	background-color: #bde0ff;
+	width: 20%;
+}
+
+
+
+
+
+
+
+#content {
+	float: left;
+
+}
+
+.post {
+
+	padding: 4%;
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	border: 0.5em solid #D9D9D9;
+}
+
+.post .title {
+	margin: 0;
+
+}
+
+.post .title a {
+
+}
+
+.post .meta {
+
+	text-align: left;
+
+}
+
+
+.post .entry {
+	text-align: justify;
+	display: inline-block;
+
+}
+
+.post .entry img{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 240px) and (max-width: 600px) { 
+   #top-menu li {
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    #top-menu li a {
+        border-bottom: 0.5px solid #ccc;
+         border-top: 0.5px solid #ccc;
+    }
+    
+ 
+  
+	h1 {
+		font-size: 14px;	
+	}
+	
+	h2{
+       font-size: 11px;
+	}
+
+	p, a, .feedback{
+		font-size: 9px;
+	}
+
+	ul.nav a{
+		font-size: 9px;
+	}
+
+
+
+	form[name="iblock_add"]{
+	
+		font-size: 11px;
+	}
+
+
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {  
+
+	h1 {
+		font-size: 16px;	
+	}
+	
+	h2{
+       font-size: 13px;
+	}
+
+	p, a, .feedback{
+		font-size: 9px;
+	}
+
+ #top-menu li a{
+		font-size: 9px;
+	}
+
+
+	form[name="iblock_add"]{
+	
+		font-size: 11px;
+	}
+
+	
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width: 800px) { 
+
+	h1 {
+		font-size: 20px;
+	}
+	
+	h2{
+       font-size: 15px;
+	}
+
+	p, a, .feedback{
+		font-size: 11px;
+	}
+
+
+ #top-menu li a{
+		font-size: 11px;
+	}
+
+
+
+	form[name="iblock_add"]{
+	
+		font-size: 11px;
+	}
+
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1000px) { 
+
+	h1 {
+		font-size: 25px;
+	}
+
+	p, a, .feedback{
+		font-size: 18px;
+	}
+
+
+ #top-menu li a{
+		font-size: 13px;
+	}
+
+
+	form[name="iblock_add"]{
+	
+		font-size: 11px;
+	}
+
+}
