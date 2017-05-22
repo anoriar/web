@@ -1,0 +1,6 @@
+<?
+$sSectionName = "CPU";
+$arDirProperties = Array(
+
+);
+?>
